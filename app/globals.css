@@ -6,3 +6,7 @@
   background-position: bottom center;
   background-size: cover;
 }
+
+.custom-transition {
+  transition: 0.7s ease;
+}
