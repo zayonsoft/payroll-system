@@ -26,7 +26,7 @@ export default function Login() {
             htmlFor="username"
           >
             <input
-              className="outline-none w-full text-sm bg-gray-300 p-2.5 py-4 rounded-md  text-gray-400 placeholder:text-[13px] placeholder:text-gray-500"
+              className="outline-none w-full text-sm bg-gray-300 p-2.5 py-4 rounded-md  text-gray-600 placeholder:text-[13px] placeholder:text-gray-400"
               id="username"
               type="text"
               placeholder="ID or Username"
@@ -36,20 +36,20 @@ export default function Login() {
           <div className="grid gap-0">
             <label className="" htmlFor="password">
               <input
-                className="outline-none w-full text-sm bg-gray-300 p-2.5 py-4 rounded-md  text-gray-400 placeholder:text-[13px] placeholder:text-gray-500"
-                id="username"
+                className="outline-none w-full text-sm bg-gray-300 p-2.5 py-4 rounded-md  text-gray-600 placeholder:text-[13px] placeholder:text-gray-400"
+                id="password"
                 type="text"
                 placeholder="Password"
               />
             </label>
-            <p className="justify-self-end">
+            <small className="justify-self-end m-0 align-top">
               <Link
                 className="custom-transition text-[13px] text-gray-500 hover:text-[#0003cb]"
                 href={"#"}
               >
                 Forgot Password?
               </Link>
-            </p>
+            </small>
           </div>
 
           <div className="grid justify-end">
@@ -65,7 +65,7 @@ export default function Login() {
           </div>
         </form>
         <p className="text-center text-sm text-gray-500">
-          &copy; Ezzpay 2025 | All Rights Reserved{" "}
+          &copy; Ezzpay 2025 | All Rights Reserved.
         </p>
       </div>
     </section>
