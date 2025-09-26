@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .form-bg {
-  background: linear-gradient(rgba(29, 66, 88, 0.7), rgba(29, 66, 88, 0.7)),
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.8)),
     url(./static/payroll_form_bg.jpg);
   background-position: bottom center;
   background-size: cover;
