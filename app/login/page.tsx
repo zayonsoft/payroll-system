@@ -8,7 +8,7 @@ export default function Login() {
     <section className="absolute grid min-h-[50vh] items-center -translate-1/2 top-1/2 left-1/2 w-10/12 max-w-[430px] rounded-md drop-shadow-sm drop-shadow-gray-800 bg-[#fffffffa] px-6 pt-7 pb-4">
       <div className="grid gap-4 py-3">
         <div className="grid gap-0 pb-4">
-          <h1 className="grid justify-items-center text-lg justify-self-center  gap-2 items-center text-center">
+          <h1 className="grid justify-items-center text-xl justify-self-center  gap-2 items-center text-center">
             <span className="flex items-center text-[#0051cb]">
               <span className="text-5xl">
                 <HiShieldCheck />
