@@ -1,15 +1,16 @@
 import Link from "next/link";
 import { HiKey, HiShieldCheck, HiUser } from "react-icons/hi";
 import { MdLogin } from "react-icons/md";
+import YearDeveloped from "../components/YearDeveloped";
 
 export default function Login() {
   return (
-    <section className="absolute grid min-h-[50vh] items-center -translate-1/2 top-1/2 left-1/2 w-11/12 max-w-[385px] rounded-md drop-shadow-sm drop-shadow-gray-800 bg-[#ffffffea] px-6 pt-7 pb-4">
+    <section className="absolute grid min-h-[50vh] items-center -translate-1/2 top-1/2 left-1/2 w-10/12 max-w-[430px] rounded-md drop-shadow-sm drop-shadow-gray-800 bg-[#fffffffa] px-6 pt-7 pb-4">
       <div className="grid gap-4 py-3">
         <div className="grid gap-0 pb-4">
-          <h1 className="grid justify-items-center justify-self-center  gap-2 items-center text-center">
+          <h1 className="grid justify-items-center text-lg justify-self-center  gap-2 items-center text-center">
             <span className="flex items-center text-[#0051cb]">
-              <span className="text-4xl">
+              <span className="text-5xl">
                 <HiShieldCheck />
               </span>
               <span>Ezz</span>
@@ -27,17 +28,17 @@ export default function Login() {
             htmlFor="username"
           >
             <input
-              className="outline-none w-full text-sm bg-gray-200 p-2.5 py-4 rounded-md  text-gray-600 placeholder:text-[13px] placeholder:text-gray-400"
+              className="outline-none w-full text-sm bg-gray-100 drop-shadow-xs p-3 py-5 rounded-md  text-gray-600 placeholder:text-[13px] placeholder:text-gray-400"
               id="username"
               type="text"
               placeholder="ID or Username"
             />
           </label>
 
-          <div className="grid gap-0">
+          <div className="grid gap-0.5">
             <label className="" htmlFor="password">
               <input
-                className="outline-none w-full text-sm bg-gray-200 p-2.5 py-4 rounded-md  text-gray-600 placeholder:text-[13px] placeholder:text-gray-400"
+                className="outline-none w-full text-sm drop-shadow-xs bg-gray-100 p-3 py-5 rounded-md  text-gray-600 placeholder:text-[13px] placeholder:text-gray-400"
                 id="password"
                 type="password"
                 placeholder="Password"
@@ -65,13 +66,19 @@ export default function Login() {
             </button>
           </div>
         </form>
-        <p className="text-center text-sm text-gray-500">
-          <span className="text-[#0051cb] font-semibold">
-            &copy; <span>Ezz</span>
-            <span className="font-bold">Pay</span>
-          </span>
-          <span> 2025 - 2027.</span>
-        </p>
+
+        <footer className="pt-2">
+          <hr className="block outline-0 border-0 h-0.5 rounded-md w-full bg-gray-100" />
+          <p className="text-center pt-3 text-sm text-gray-500">
+            <span className="font-bold">
+              &copy; <span>Ezz</span>
+              <span>Pay </span>
+            </span>
+            <span>
+              <YearDeveloped /> || All Rights Reserved.
+            </span>
+          </p>
+        </footer>
       </div>
     </section>
   );
