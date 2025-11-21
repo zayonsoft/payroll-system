@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import React from "react";
 
 export const metadata: Metadata = {
-  title: "PAYROLL SYSTEM | LOGIN",
+  title: "EZZPAY | LOGIN",
   description: "A Web-based Payroll system for institutions",
   icons: { icon: "ezzpay_icon.svg" },
 };

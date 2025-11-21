@@ -47,7 +47,7 @@ export default function Login() {
                 <p className="grid grid-cols-[1fr_auto] bg-[#D3AF8526] rounded-[10px] border border-[#D3AF85] items-center">
                   <span>
                     <input
-                      className="w-full outline-none placeholder:text-sm placeholder:text-[#D3AF85] p-2"
+                      className="w-full outline-none placeholder:text-sm placeholder:text-[#D3AF85] py-2 px-4"
                       id="username"
                       type="text"
                       placeholder="Enter your ID or Username"
@@ -71,7 +71,7 @@ export default function Login() {
                 <p className="grid grid-cols-[1fr_auto] bg-[#D3AF8526] rounded-[10px] border border-[#D3AF85] items-center gap-1">
                   <span>
                     <input
-                      className="w-full outline-none placeholder:text-sm placeholder:text-[#D3AF85] p-2"
+                      className="w-full outline-none placeholder:text-sm placeholder:text-[#D3AF85] py-2 px-4"
                       id="password"
                       type="password"
                       placeholder="*******************"
@@ -96,7 +96,7 @@ export default function Login() {
               {/* PASSWORD ENDS */}
 
               {/* SUBMIT */}
-              <button className="bg-[#F4B315] font-medium text-[#172531] p-2 text-lg rounded-[10px]">
+              <button className="bg-[#F4B315] font-medium text-[#172531] p-2 text-[16px] rounded-[10px]">
                 Sign In
               </button>
               {/* SUBMIT ENDS*/}
