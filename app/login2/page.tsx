@@ -3,7 +3,7 @@ import { HiShieldCheck } from "react-icons/hi";
 import { MdLogin } from "react-icons/md";
 import YearDeveloped from "@/components/YearDeveloped";
 
-export default function Login() {
+export default function Login2() {
   return (
     <section className="absolute grid min-h-[50vh] items-center -translate-1/2 top-1/2 left-1/2 w-10/12 max-w-[430px] rounded-md drop-shadow-sm drop-shadow-gray-800 bg-[#fffffffa] px-6 pt-7 pb-4">
       <div className="grid gap-4 py-3">

@@ -1,8 +1,19 @@
 @import "tailwindcss";
 
 .form-bg {
+  background: url(../public/form_bg.jpg);
+  background-position: top center;
+  background-size: cover;
+}
+.side-design {
+  background: url(../public/login_side_design.svg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.form-bg2 {
   background: linear-gradient(rgba(19, 31, 41, 0.75), rgba(37, 51, 62, 0.852)),
-    url(./static/payroll_form_bg.jpg);
+    url(../public/form_bg2.jpg);
   background-position: bottom center;
   background-size: cover;
 }

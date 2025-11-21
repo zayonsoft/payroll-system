@@ -12,5 +12,5 @@ export default function LoginLayout({
 }: {
   children: React.ReactNode;
 }) {
-  return <div className="form-bg h-screen w-full">{children}</div>;
+  return <div className="form-bg2 h-screen w-full">{children}</div>;
 }
