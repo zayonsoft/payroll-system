@@ -12,9 +12,9 @@ const inter = Inter({
 export default function Login() {
   return (
     <section className={`${inter.className}`}>
-      <div className="fixed right-0 left-1/2 top-0 bottom-0 side-design"></div>
-      <div className="relative w-1/2 min-w-[350px] h-screen">
-        <div className="grid gap-5 w-11/12 max-w-[550px] absolute -translate-1/2 top-1/2 left-1/2">
+      <div className="fixed right-0 left-1/2 top-0 bottom-0 side-design max-[851px]:left-full"></div>
+      <div className="relative w-1/2 min-w-[350px] h-screen max-[851px]:w-full">
+        <div className="grid gap-5 w-10/12 max-w-[500px] absolute -translate-1/2 top-1/2 left-1/2">
           <section className="bg-[#FFFFFF26] px-8 py-9 rounded-2xl grid gap-20 backdrop-blur-xl">
             <div className="grid gap-7">
               <h1 className="flex items-center gap-2 text-[#F4B315]">
